@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('background.jpg'); 
+    background-size: cover;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border: 10px solid black;
+}
+
+#resetButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#bounceCount {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(32, 28, 28);
+    margin-top: 10px;
+}
